@@ -2,9 +2,6 @@ header{
     display: flex;
     flex-direction: row;
 }
-h6{
-    margin: 0;
-}
 
 #website-content-panel{
     width: 67%;
@@ -16,10 +13,42 @@ h6{
     width: 60%;
 }
 
+#header-name-panel h6{
+    margin-top: 0;
+}
+
 #header-nav-panel{
     width: 40%;
     font-size: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#about-me-section-panel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me-section-panel h6{
+    margin: 0;
+}
+
+#about-me-content-panel{
+    width: 66%;
+}
+
+#about-me-content-panel p{
+    font-size: 8px;
+    padding-right: 5px;
+}
+
+#about-me-image-panel{
+    width: 33%;
+}
+
+#about-me-image-panel img{
+    width: 100%;
+    border-radius: 10px;
 }
