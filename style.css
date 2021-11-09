@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header a{
+    font-size: 8px;
+}
+
+#website-content-panel{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
