@@ -3,12 +3,40 @@ header{
     flex-direction: row;
 }
 
+.logo-container img{
+    width: 50px;
+}
+
+.edu-entry{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.edu-entry-content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-entry-content-description{
+    font-size: 6px;
+}
+
+/*
+    Website-wide elements
+*/
+
 #website-content-panel{
     width: 67%;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*
+    Header
+*/
 #header-name-panel{
     width: 60%;
 }
@@ -25,6 +53,9 @@ header{
     justify-content: space-around;
 }
 
+/*
+    About Me Section
+*/
 #about-me-section-panel{
     width: 100%;
     display: flex;
@@ -51,4 +82,17 @@ header{
 #about-me-image-panel img{
     width: 100%;
     border-radius: 10px;
+}
+
+/*
+    Education Section Panel
+*/
+
+#edu-section-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+#edu-section-panel h6{
+    margin: 0;
 }

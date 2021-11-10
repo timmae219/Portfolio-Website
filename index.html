@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>My Personal Portfolio Website</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
     </head>
     <body>
         <div id="website-content-panel">
@@ -11,8 +13,8 @@
                     <h6>Timucin Maurice Erdar</h6>
                 </div>
                 <div id="header-nav-panel">
-                    <a>About Me</a>
-                    <a>CV</a>
+                    <a href="#about-me-section-panel">About Me</a>
+                    <a href="#edu-section-panel">Education</a>
                     <a>Skills</a>
                     <a>Contact</a>
                 </div>
@@ -28,7 +30,95 @@
                     <img src="/resources/Business_Bild_scaled.JPG">
                 </div>
             </div>
-            <div id="cv-section-panel"></div>
+            <div id="edu-section-panel">
+                <h6>Education</h6>
+                <div class="edu-entry">
+                    <div id="master-dot" onclick="flipMasterInformation()">&gt;</div>
+                    <div class="edu-entry-content">
+                        <div class="edu-entry-heading">Master Degree</div>
+                        <div id="edu-entry-master" class="edu-entry-content-description" style="display: none;">
+                            <p>Philipps-University of Marburg:</p>
+                            <div class="logo-container">
+                                <img src="resources/unimr.png">
+                            </div>
+                            <p>I will receive my Masters Degree in Computer Science in the middle of 2022.</p>
+                            <p>My focused contents were: </p>
+                            <ul>
+                                <li>Machine Learning</li>
+                                <li>Software Quality</li>
+                                <li>Compiler Construction</li>
+                                <li>Multimedial Signal Processing</li>
+                                <li>Data Visualization</li>
+                                <li>Resilient Networks</li>
+                                <li>Containerization</li>
+                            </ul>
+                            <p>I have used the following Programming Languages: </p>
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>OPL</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-entry">
+                    <div id="bachelor-dot" onclick="flipBachelorInformation()">&gt;</div>
+                    <div class="edu-entry-content">
+                        <div class="edu-entry-heading">Bachelor Degree</div>
+                        <div id="edu-entry-bachelor" class="edu-entry-content-description" style="display: none;">
+                            <p>Philipps-University of Marburg:</p>
+                            <div class="logo-container">
+                                <img src="resources/unimr.png">
+                            </div>
+                            <p>I received my Bachelor Degree at the beginning of 2020.</p>
+                            <p>The title of my Bachelor Thesis was: <b>Analysis of private Data in Android Apps</b>.</p>
+                            <p>My focused contents were: </p>
+                            <ul>
+                                <li>Operating Systems</li>
+                                <li>Knowledge Discovery</li>
+                                <li>Formal methods in Software Engineering</li>
+                                <li>Wireless Networks</li>
+                                <li>Game Development with Unity</li>
+                            </ul>
+                            <p>I have used the following Programming Languages: </p>
+                            <ul>
+                                <li>Scala</li>
+                                <li>x86 Assembling Language</li>
+                                <li>FORTH</li>
+                                <li>PostScript</li>
+                                <li>Racket</li>
+                                <li>Prolog</li>
+                                <li>Java</li>
+                                <li>R</li>
+                                <li>C</li>
+                                <li>C#</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-entry">
+                    <div id="abitur-dot" onclick="flipAbiturInformation()">&gt;</div>
+                    <div class="edu-entry-content">
+                        <div class="edu-entry-heading">Abitur</div>
+                        <div id="edu-entry-abitur" class="edu-entry-content-description" style="display: none;">
+                            <p>Lahntalschule Biedenkopf</p>
+                            <div class="logo-container">
+                                <img src="resources/lts_logo.png">
+                            </div>
+                            <p>I received my Abitur in 2016.</p>
+                            <p>My performance courses were <b>Politics and Economics</b> and <b>Mathematics</b>.</p>
+                            <p>I have used the following Programming Languages in the Computer Science lessons: </p>
+                            <ul>
+                                <li>Object Pascal</li>
+                                <li>Prolog</li>
+                                <li>Scratch</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="skills-section-panel"></div>
             <div id="contact-section-panel"></div>
             <footer></footer>
