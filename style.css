@@ -3,6 +3,15 @@ header{
     flex-direction: row;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 6px;
+    padding: 6px;
+}
+
 .logo-container img{
     width: 50px;
 }
@@ -122,3 +131,15 @@ header{
 /*
     Contact Section Panel
 */
+
+#contact-enumeration-panel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#contact-enumeration-panel img{
+    width: 25px;
+    margin: 5px;
+}
