@@ -12,6 +12,11 @@ header{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
+    font-size: 10px;
+}
+
+.edu-entry-heading{
+    font-size: 10px;
 }
 
 .edu-entry-content{
@@ -95,4 +100,20 @@ header{
 
 #edu-section-panel h6{
     margin: 0;
+}
+
+/*
+    Skills Section Panel
+*/
+
+#skills-enumeration-panel{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#skills-enumeration-panel img{
+    width: 50px;
+    margin: 5px;
 }
