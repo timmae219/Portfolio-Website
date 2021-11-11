@@ -115,5 +115,10 @@ header{
 
 #skills-enumeration-panel img{
     width: 50px;
+    mix-blend-mode: multiply;
     margin: 5px;
 }
+
+/*
+    Contact Section Panel
+*/
