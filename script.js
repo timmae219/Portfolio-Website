@@ -1,12 +1,13 @@
-const collapsedSymbol = "&gt;";
-const expandedSymbol = "V";
+const collapsedSymbol = "&rarr;";
+const explicitCollapsedSymbol = "→";
+const expandedSymbol = "&darr;";
+const explicitExpandedSymbol = "↓";
 
 function flipMasterInformation(){
     let dot = document.getElementById("master-dot");
     let content = document.getElementById("edu-entry-master");
     _flipDot(dot);
     _toggleContentVisibility(content);
-    //alert(content.style.display);
 }
 
 function flipBachelorInformation(){
@@ -24,9 +25,9 @@ function flipAbiturInformation(){
 }
 
 function _flipDot(dot){
-    if(dot.innerHTML === collapsedSymbol){
+    if(dot.innerHTML === collapsedSymbol || dot.innerHTML === explicitCollapsedSymbol){
         dot.innerHTML = expandedSymbol;
-    }else if(dot.innerHTML === expandedSymbol){
+    }else if(dot.innerHTML === expandedSymbol || dot.innerHTML === explicitExpandedSymbol){
         dot.innerHTML = collapsedSymbol;
     }
 }
