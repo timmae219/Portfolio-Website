@@ -60,6 +60,19 @@ footer{
     opacity: 0.95;
 }
 
+@media only screen and (max-width: 600px) {
+    #website-content-panel{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 2px;
+        background-color: azure;
+        opacity: 0.95;
+    }
+  }
+
 /*
     Header
 */
