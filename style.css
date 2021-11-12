@@ -1,6 +1,13 @@
+html{
+    background-image: url("/resources/coding_wallpaper.jpeg");
+    background-repeat: repeat;
+    font-family: 'Ubuntu';
+}
+
 header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -46,6 +53,11 @@ footer{
     width: 67%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2px;
+    background-color: azure;
+    opacity: 0.95;
 }
 
 /*
@@ -64,7 +76,12 @@ footer{
     font-size: 8px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#header-nav-panel a{
+    margin: 1px;
 }
 
 /*
