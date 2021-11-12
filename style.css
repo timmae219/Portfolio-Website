@@ -15,7 +15,7 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    font-size: 6px;
+    font-size: 10px;
     padding: 6px;
 }
 
@@ -28,11 +28,11 @@ footer{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .edu-entry-heading{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .edu-entry-content{
@@ -42,7 +42,7 @@ footer{
 }
 
 .edu-entry-content-description{
-    font-size: 6px;
+    font-size: 10px;
 }
 
 /*
@@ -115,7 +115,7 @@ footer{
 }
 
 #about-me-content-panel p{
-    font-size: 8px;
+    font-size: 12px;
     padding-right: 5px;
 }
 
